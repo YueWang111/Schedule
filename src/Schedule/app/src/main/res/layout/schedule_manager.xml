@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/study"
+    >
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="教师管理"
+        android:gravity="center"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:id="@+id/GotoWebP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进入管理系统"
+        android:background="@drawable/shape"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/HURLC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HttpURLConnection访问网络"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/okHURLC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="okHttp访问网络"
+        android:textSize="20dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/httpURLcon_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Result"
+        android:gravity="center"
+        android:textSize="30dp"
+        />
+</ScrollView>
+
+
+</LinearLayout>
